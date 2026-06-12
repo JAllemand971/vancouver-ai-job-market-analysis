@@ -74,7 +74,7 @@ Most companies are hiring engineers capable of building, integrating and deployi
 
 ## Skills Demand
 
-![Skills Heatmap](images/skills_heatmap.png)
+![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/skills_heatmap.png)
 
 The skills analysis revealed several interesting trends:
 
