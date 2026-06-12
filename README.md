@@ -36,7 +36,7 @@ The objective was to identify:
 
 ## Job Categories
 
-![Job Categories](images/job_categories.png)
+![Job Categories](/images/jobCategory.png)
 
 The largest categories were:
 
