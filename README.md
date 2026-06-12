@@ -59,8 +59,7 @@ This suggests that companies are primarily focused on deploying and operating AI
 To better understand the market, job categories were grouped into broader orientations:
 
 - Applied AI
-- Data Engineering
-- Data Science
+- Data & Analytics
 - Research
 - Platform Engineering
 - Solutions Engineering
