@@ -36,7 +36,8 @@ The objective was to identify:
 
 ## Job Categories
 
-![Job Categories](/images/jobCategory.png)
+![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/jobCategory.png)
+
 
 The largest categories were:
 
@@ -53,7 +54,7 @@ This suggests that companies are primarily focused on deploying and operating AI
 
 ## Market Orientation
 
-![Market Orientation](images/market_orientation.png)
+![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/orientation.png)
 
 To better understand the market, job categories were grouped into broader orientations:
 
