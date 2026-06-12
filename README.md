@@ -38,7 +38,6 @@ The objective was to identify:
 
 ![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/jobCategory.png)
 
-
 The largest categories were:
 
 - AI Engineer
@@ -65,6 +64,8 @@ To better understand the market, job categories were grouped into broader orient
 - Solutions Engineering
 
 The analysis shows that approximately 90% of opportunities are industry-oriented while only around 10% are research-focused.
+
+![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/repartition.png)
 
 This challenges the common perception that AI careers are mainly centered around research laboratories and PhD-level work.
 
