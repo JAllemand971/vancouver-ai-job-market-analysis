@@ -1,61 +1,55 @@
-# AI & Data Job Market Analysis
+# Vancouver AI & Data Job Market Analysis
 
 ## Overview
 
-This project analyzes multiple AI and Data job market datasets to understand current industry demand, required skills, salary trends, and hiring patterns.
+This project analyzes the AI and Data job market in the Greater Vancouver area.
 
-## Datasets
+The goal is to understand which roles, skills, and technologies are currently in demand in Vancouver's AI ecosystem.
 
-The project includes:
+The analysis is based on AI and Data-related job postings collected from LinkedIn.
 
-- Vancouver AI & Data job postings
-- AI Job Market 2025 dataset
-- Global AI & Data Science Job Market 2020–2026
+After cleaning and removing duplicates, the final dataset contains **147 unique job opportunities**.
 
-For the Vancouver dataset:
+## Project Goals
 
-- Initial postings: 200
-- Cleaned unique postings: 147
+This project aims to answer the following questions:
 
-# Vancouver AI Job Market Analysis
+- Which AI and Data roles are most in demand in Vancouver?
+- Is the market more focused on research or industry applications?
+- Which technical skills appear most frequently?
+- Which technologies are companies actively looking for?
+- What does the local job market suggest for people trying to enter AI?
 
-## Overview
+## Dataset
 
-To better understand the current AI job market in Vancouver, I analyzed 200 AI and Data-related job postings collected from LinkedIn.
+The Vancouver dataset contains:
 
-After cleaning and removing duplicates, the final dataset contained 147 unique job opportunities.
-
-The objective was to identify:
-
-- Which AI profiles are currently in demand
-- The balance between research and industry positions
-- The most requested technical skills
-- The technologies companies are actively looking for
-
----
+- Initial job postings: **200**
+- Cleaned unique postings: **147**
+- Location focus: **Greater Vancouver Area**
+- Source: **LinkedIn job postings**
+- Domain: **AI, Machine Learning, Data Science, Data Engineering, Analytics, and related roles**
 
 ## Job Categories
 
-![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/jobCategory.png)
+![Job Categories](images/jobCategory.png)
 
-The largest categories were:
+The largest categories in the Vancouver dataset were:
 
 - AI Engineer
 - Data Engineer
 - Data Scientist
 - Machine Learning Engineer
 
-Research-oriented positions represented a much smaller portion of the market.
+Research-oriented positions represented a smaller portion of the market.
 
-This suggests that companies are primarily focused on deploying and operating AI systems rather than developing new algorithms.
-
----
+This suggests that the Vancouver AI job market is primarily focused on building, integrating, and deploying AI systems rather than only developing new algorithms in research environments.
 
 ## Market Orientation
 
-![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/orientation.png)
+![Market Orientation](images/orientation.png)
 
-To better understand the market, job categories were grouped into broader orientations:
+To better understand the structure of the market, job categories were grouped into broader orientations:
 
 - Applied AI
 - Data & Analytics
@@ -63,102 +57,163 @@ To better understand the market, job categories were grouped into broader orient
 - Platform Engineering
 - Solutions Engineering
 
-The analysis shows that approximately 90% of opportunities are industry-oriented while only around 10% are research-focused.
+The analysis shows that most opportunities are industry-oriented.
 
-![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/repartition.png)
+Only a smaller portion of the market appears to be research-focused.
 
-This challenges the common perception that AI careers are mainly centered around research laboratories and PhD-level work.
+![Market Repartition](images/repartition.png)
 
-Most companies are hiring engineers capable of building, integrating and deploying AI solutions into production environments.
+This challenges the common perception that AI careers are mainly centered around research labs, PhD-level work, or academic research.
 
----
+In Vancouver, most companies appear to be looking for people who can build, integrate, and deploy AI or data solutions into real-world environments.
 
 ## Skills Demand
 
-![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/skills_heatmap.png)
+![Skills Heatmap](images/skills_heatmap.png)
 
-The skills analysis revealed several interesting trends:
+The skills analysis shows several important trends.
 
 ### Core Skills
 
-Python was the dominant skill across nearly all categories.
+Python appears as the most important technical skill across most AI and Data roles.
 
-SQL was the second most important technology, particularly for:
+SQL is also highly relevant, especially for:
 
-- Data Engineers
-- Data Scientists
+- Data Engineering
+- Data Science
 - Analytics roles
 
-### Applied AI
+### Applied AI Skills
 
-AI Engineer positions showed strong demand for:
+AI Engineer roles show demand for skills related to:
 
-- LLMs
-- Retrieval-Augmented Generation (RAG)
-- Cloud platforms (AWS and Azure)
+- Large Language Models
+- Retrieval-Augmented Generation
+- Cloud platforms
+- AI application development
 
-### Machine Learning
+### Machine Learning Skills
 
-Machine Learning Engineers were more likely to require:
+Machine Learning Engineer roles are more likely to require:
 
 - PyTorch
 - TensorFlow
-- Traditional ML development skills
+- Model development
+- Machine learning fundamentals
 
-### Data Engineering
+### Data Engineering Skills
 
-Data Engineering roles frequently mentioned:
+Data Engineering roles frequently mention:
 
 - SQL
 - Spark
 - Databricks
 - Airflow
-
----
+- Cloud data platforms
 
 ## Key Findings
 
-### 1. AI is primarily an engineering discipline
+### 1. Vancouver's AI market is mostly industry-oriented
 
-The majority of positions focus on building, deploying and maintaining AI systems rather than conducting research.
+Most opportunities are focused on practical AI implementation, data platforms, and production systems.
 
-### 2. Python remains king
+Research roles exist, but they represent a smaller share of the market.
 
-Python appeared across almost every category and remains the most valuable technical skill in the AI ecosystem.
+### 2. Python remains the dominant AI skill
 
-### 3. SQL is underestimated
+Python appears across many job categories and remains one of the most valuable technical skills for AI and Data roles.
 
-Despite the attention given to LLMs and generative AI, SQL remains one of the most requested skills in the market.
+### 3. SQL is still highly important
 
-### 4. Generative AI is becoming mainstream
+Even with the rise of generative AI and large language models, SQL remains a core skill for many data-related positions.
 
-Technologies such as:
+### 4. Generative AI is entering production roles
 
-- LLMs
-- RAG
-- Vector Databases
+Technologies related to modern AI systems are appearing in job postings, including:
+
+- Large Language Models
+- Retrieval-Augmented Generation
+- Vector databases
 - MLOps
+- Cloud AI services
 
-are increasingly appearing in production-oriented AI roles.
+### 5. Practical engineering skills matter
 
-### 5. Research positions are relatively rare
+The data suggests that companies are looking for candidates who can connect AI models to real products, workflows, and business systems.
 
-Only a small fraction of opportunities were research-focused, suggesting that practical engineering experience may currently provide stronger alignment with market demand than purely academic specialization.
+## Interpretation
 
----
+The Vancouver AI job market appears to be practical, applied, and engineering-driven.
 
-## Conclusion
+While research skills remain valuable, the strongest demand seems to be for people who can:
 
-The Vancouver AI ecosystem appears mature, industry-driven, and focused on practical applications of artificial intelligence.
+- Build AI applications
+- Work with data pipelines
+- Deploy models
+- Use cloud platforms
+- Integrate AI into existing systems
+- Understand both software and machine learning workflows
 
-While research positions continue to exist and often command higher salaries, the overwhelming majority of opportunities are centered on building real-world AI products and data platforms.
-
-For aspiring AI professionals, the strongest combination of skills appears to be:
+For aspiring AI professionals, a strong technical foundation should include:
 
 - Python
 - SQL
-- Cloud platforms
 - Machine Learning fundamentals
-- Modern Generative AI technologies
+- Cloud platforms
+- Data engineering basics
+- Generative AI concepts
+- MLOps and deployment workflows
 
-Overall, the data suggests that today's AI job market values the ability to deliver production-ready solutions at least as much as the ability to develop new algorithms.
+## Limitations
+
+This analysis has some limitations:
+
+- The dataset is relatively small.
+- The data comes from job postings and may not represent the entire market.
+- Some job descriptions may be incomplete or inconsistent.
+- Job titles can be ambiguous.
+- Skills are extracted from postings and may not capture every requirement.
+- The analysis focuses only on the Vancouver area.
+
+Despite these limitations, the dataset provides a useful snapshot of the local AI and Data job market.
+
+## Conclusion
+
+The Vancouver AI job market is not only about research.
+
+Most opportunities are focused on applied AI, data infrastructure, analytics, and production-ready systems.
+
+The strongest career signal from this analysis is that AI professionals should combine machine learning knowledge with practical software, data, and cloud engineering skills.
+
+In other words, the local market appears to value people who can turn AI concepts into working systems.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Data cleaning
+- Exploratory data analysis
+- Data visualization
+
+## Repository Structure
+
+```text
+vancouver-ai-job-market-analysis/
+│
+├── images/
+│   ├── jobCategory.png
+│   ├── orientation.png
+│   ├── repartition.png
+│   └── skills_heatmap.png
+│
+├── notebooks/
+│   └── Vancouver_AI_Job_Market_Analysis.ipynb
+│
+├── data/
+│   └── README.md
+│
+└── README.md
