@@ -61,7 +61,7 @@ The analysis shows that most opportunities are industry-oriented.
 
 Only a smaller portion of the market appears to be research-focused.
 
-![Market Repartition]()
+![Market Repartition](https://github.com/JAllemand971/vancouver-ai-job-market-analysis/blob/main/vancouver_ai_job_market_analysis/images/repartition.png)
 
 This challenges the common perception that AI careers are mainly centered around research labs, PhD-level work, or academic research.
 
