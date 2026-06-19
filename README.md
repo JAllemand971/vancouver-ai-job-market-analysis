@@ -32,7 +32,7 @@ The Vancouver dataset contains:
 
 ## Job Categories
 
-![Job Categories](images/jobCategory.png)
+![Job Categories](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/jobCategory.png)
 
 The largest categories in the Vancouver dataset were:
 
@@ -47,7 +47,7 @@ This suggests that the Vancouver AI job market is primarily focused on building,
 
 ## Market Orientation
 
-![Market Orientation](images/orientation.png)
+![Market Orientation](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/orientation.png)
 
 To better understand the structure of the market, job categories were grouped into broader orientations:
 
@@ -61,7 +61,7 @@ The analysis shows that most opportunities are industry-oriented.
 
 Only a smaller portion of the market appears to be research-focused.
 
-![Market Repartition](images/repartition.png)
+![Market Repartition]()
 
 This challenges the common perception that AI careers are mainly centered around research labs, PhD-level work, or academic research.
 
@@ -69,7 +69,7 @@ In Vancouver, most companies appear to be looking for people who can build, inte
 
 ## Skills Demand
 
-![Skills Heatmap](images/skills_heatmap.png)
+![Skills Heatmap](https://raw.githubusercontent.com/JAllemand971/AI_Job_Market_Analysis/main/vancouver_ai_job_market_analysis/images/skills_heatmap.png)
 
 The skills analysis shows several important trends.
 
